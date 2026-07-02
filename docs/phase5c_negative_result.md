@@ -17,6 +17,7 @@ By contrast, the simpler unfiltered `Curiosity` baseline successfully learned to
 1. **Continuous vs Discrete**: In our synthetic math experiments, the world was naturally composed of distinct, disjoint mathematical functions (a sine wave here, a noise block there). Hard discrete gating worked perfectly because the underlying reality was discrete.
 2. **Value Function Smoothing**: Physics is continuous. By hard-gating rewards across arbitrary boundaries in a continuous aerodynamic space, we likely created sheer cliffs and discontinuities in the reward landscape. This prevents the PPO algorithm from learning a smooth, continuous value function.
 3. **Scaling Mismatches**: Complex combinations of learning-progress bonuses, gated intrinsic rewards, and safety penalties created scaling instabilities that ruined the policy representation for the downstream fine-tuning task.
+4. **Action-Mode Discretization**: The hard-gated regime tracker may also have suffered from imperfect action-mode discretization. Therefore, this negative result should be interpreted as a failure of this specific implementation, not a definitive rejection of mastery tracking in continuous control.
 
 ## Scientific Takeaways
 

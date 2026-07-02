@@ -180,9 +180,9 @@ class RegimeTracker:
             act_bin = 3 # asymmetric left
         elif diff > 0.5:
             act_bin = 4 # asymmetric right
-        elif tot < -0.5:
+        elif tot < 0.7:
             act_bin = 0 # balanced low
-        elif tot > 0.5:
+        elif tot > 1.3:
             act_bin = 2 # balanced high
         else:
             act_bin = 1 # balanced hover

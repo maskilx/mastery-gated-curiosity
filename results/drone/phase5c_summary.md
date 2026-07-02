@@ -1,6 +1,6 @@
 # Phase 5C: Safety-Gated Mastery Curiosity
 
-## Evaluation Metrics (Preliminary: 50 seeds per condition)
+## Evaluation Metrics (Preliminary: 50 evaluation episodes per condition, not 50 independent training seeds.)
 
 ### Crash Rates
 | Agent         |   hard |   high_tilt |   high_velocity |   low_altitude |   medium |   mild |   standard |

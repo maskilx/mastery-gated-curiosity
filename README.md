@@ -1,5 +1,11 @@
 # Mastery-Gated Curiosity
 
+This project studies when curiosity helps, when it fails, and why naive prediction-error chasing is not enough.
+
+## Repository Status
+
+This repository is a research prototype. Some experiments are preliminary and some results are intentionally reported as negative results. The code is intended for exploration and reproducibility, not production RL training.
+
 ## Overview
 
 A research prototype exploring curiosity-driven exploration, mastery/noise gating, prequential world-model learning, and downstream control pretraining.
@@ -75,6 +81,13 @@ Tested safety-gated mastery curiosity for drone pretraining. The discrete hard-g
 * Some results may be single-seed or preliminary unless multi-seed evaluation exists.
 * Phase 5C produced a negative result.
 * The code is a research prototype, not production RL infrastructure.
+
+## Known Issues
+
+- Phase 5C is preliminary and should not be interpreted as a definitive rejection of mastery tracking in continuous control.
+- The drone environment is a simplified custom 2D simulator.
+- Some results may be based on limited training seeds.
+- Hard discrete regime gating may require better action/state discretization or soft continuous gating.
 
 ## Installation
 
