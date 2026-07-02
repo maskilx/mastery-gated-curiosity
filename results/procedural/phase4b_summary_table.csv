@@ -1,0 +1,15 @@
+,,ValError,ValError,SamplesWastedInactive,SamplesWastedNoisy,MasteredLearnable,FalseMastery,FalseBlocked
+,,mean,std,mean,mean,mean,mean,mean
+Env,Agent,,,,,,,
+ID_Medium,HighestError,0.3257,0.272,0.0,716.9,1.1,0.0,0.0
+ID_Medium,LearningProgress,0.058,0.0403,0.0,374.8,5.0,0.0,0.0
+ID_Medium,MasteryGatedHypothesis,0.0376,0.0441,0.0,86.3,5.6,0.0,0.0
+ID_Medium,PPO_FlatMLP,0.686,0.3242,0.0,103.3,1.2,0.1,0.0
+ID_Medium,PPO_SetPolicy,0.0054,0.0036,0.0,227.6,6.0,1.9,0.0
+ID_Medium,Random,0.0828,0.0838,0.0,227.0,4.9,0.0,0.0
+OOD_Hard,HighestError,0.4576,0.2782,0.0,764.6,0.1,0.0,0.0
+OOD_Hard,LearningProgress,0.2111,0.191,0.0,421.5,4.4,0.0,0.0
+OOD_Hard,MasteryGatedHypothesis,0.1866,0.1703,0.0,75.2,4.6,0.0,0.0
+OOD_Hard,PPO_FlatMLP,0.9086,0.5136,0.0,195.4,1.0,0.2,0.0
+OOD_Hard,PPO_SetPolicy,0.0042,0.0026,0.0,232.7,6.1,1.8,0.0
+OOD_Hard,Random,0.2058,0.184,0.0,235.0,4.6,0.0,0.0
